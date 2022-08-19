@@ -15,7 +15,7 @@ const Work = () => {
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#00df9a]'>
                         Work
                     </p>
-                    <p className='py-6'>// Confira alguns dos meus trabalhos recentes</p>
+                    <p className='py-6'>Confira alguns dos meus trabalhos recentes</p>
                 </div>
 
                 {/* Container */}
@@ -35,7 +35,7 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
 
-                                <a target='_blank' href='https://github.com/emerson-baiano/projeto-controle-financas'>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/emerson-baiano/projeto-controle-financas'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -47,7 +47,6 @@ const Work = () => {
                         style={{ backgroundImage: `url(${GestaoDeFinancas})` }}
                         className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
-
                         {/* Efeitos de foco */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -55,12 +54,12 @@ const Work = () => {
                                 ReacjJS & NodeJS
                             </span>
                             <div className='pt-8 text-center'>
-                                <a target='_blank' href='https://www.chargemanager.com.br/'>
+                                <a target='_blank' rel="noreferrer" href='https://www.chargemanager.com.br/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Visitar
                                     </button>
                                 </a>
-                                <a target='_blank' href='https://github.com/Kouamenan/back-integral-m05-desafio-t05'>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/Kouamenan/back-integral-m05-desafio-t05'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -75,7 +74,6 @@ const Work = () => {
                         style={{ backgroundImage: `url(${MiniInsta})` }}
                         className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
-
                         {/* Efeitos de foco */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -84,7 +82,7 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
 
-                                <a target='_blank' href='https://github.com/adrianocruz01/mini_insta'>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/adrianocruz01/mini_insta'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -96,7 +94,6 @@ const Work = () => {
                         style={{ backgroundImage: `url(${SeuCrypto})` }}
                         className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
-
                         {/* Efeitos de foco */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -104,12 +101,12 @@ const Work = () => {
                                 ReactJS & TailwindCSS
                             </span>
                             <div className='pt-8 text-center'>
-                                <a target='_blank' href='https://seucryptoclube.com/'>
+                                <a target='_blank' rel="noreferrer" href='https://seucryptoclube.com/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Visitar
                                     </button>
                                 </a>
-                                <a target='_blank' href='https://github.com/adrianocruz01/andrei-insta'>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/adrianocruz01/andrei-insta'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -124,7 +121,6 @@ const Work = () => {
                         style={{ backgroundImage: `url(${SiteVendasBackend})` }}
                         className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
-
                         {/* Efeitos de foco */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -133,7 +129,7 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
 
-                                <a target='_blank' href='https://github.com/adrianocruz01/APIcomBancoDeDados'>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/adrianocruz01/APIcomBancoDeDados'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -145,7 +141,6 @@ const Work = () => {
                         style={{ backgroundImage: `url(${BuscaEco})` }}
                         className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
-
                         {/* Efeitos de foco */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -153,12 +148,12 @@ const Work = () => {
                                 ReactJS & NodeJS
                             </span>
                             <div className='pt-8 text-center'>
-                                <a target='_blank' href='https://valderyjr.github.io/FrontProvi54/'>
+                                <a target='_blank' rel="noreferrer" href='https://valderyjr.github.io/FrontProvi54/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Visitar
                                     </button>
                                 </a>
-                                <a target='_blank' href='https://github.com/YasminRamos/hackathon-provi'>
+                                <a target='_blank' rel="noreferrer" href='https://github.com/YasminRamos/hackathon-provi'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import Typed from 'react-typed';
+import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
@@ -22,7 +23,12 @@ const Home = () => {
                 </h2>
                 <p className='text-[#8892b0] py-4 max-w-[700px]'>Sou desenvolvedor Front-end e Back-end especializado em construir (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado na construção de aplicações web full stack de responsividade e servidores lincados com banco de dados.</p>
                 <div>
-                    <button className='border-2 group px-6 py-3 my-2 flex items-center hover:bg-[#00df9a] hover:border-[#00df9a] text-white'>View Work
+                    <button className='border-2 group px-6 py-3 my-2 flex items-center hover:bg-[#00df9a] hover:border-[#00df9a] text-white'>
+
+                        <Link to="sobre" spy={true} smooth={true} duration={500}>
+                            Saiba mais
+                        </Link>
+
                         <span className='group-hover:rotate-90 duration-300'>
                             <HiArrowNarrowRight className='ml-4' />
                         </span>
