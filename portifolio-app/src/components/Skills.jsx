@@ -13,7 +13,7 @@ import BD from '../assets/bd.png';
 
 const Skills = () => {
     return (
-        <div name="ferramentas" className='text-white'>
+        <div name="ferramentas" className='w-full h-screen text-white'>
 
             {/* Container */}
 

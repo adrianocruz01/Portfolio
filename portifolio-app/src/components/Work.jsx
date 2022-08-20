@@ -9,7 +9,7 @@ import BuscaEco from '../assets/buscaEco-img.png';
 
 const Work = () => {
     return (
-        <div name='work' className='w-full md:h-screen text-gray-300 '>
+        <div name='work' className='w-full md:h-screen text-gray-300'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#00df9a]'>
@@ -26,7 +26,7 @@ const Work = () => {
 
                     <div
                         style={{ backgroundImage: `url(${ControleDeFinancas})` }}
-                        className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg shadow-orange-200 group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Efeitos de foco */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -45,7 +45,7 @@ const Work = () => {
                     </div>
                     <div
                         style={{ backgroundImage: `url(${GestaoDeFinancas})` }}
-                        className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg shadow-orange-200 group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Efeitos de foco */}
 
@@ -72,7 +72,7 @@ const Work = () => {
 
                     <div
                         style={{ backgroundImage: `url(${MiniInsta})` }}
-                        className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg shadow-orange-200 group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Efeitos de foco */}
 
@@ -92,7 +92,7 @@ const Work = () => {
                     </div>
                     <div
                         style={{ backgroundImage: `url(${SeuCrypto})` }}
-                        className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg shadow-orange-200 group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Efeitos de foco */}
 
@@ -119,7 +119,7 @@ const Work = () => {
 
                     <div
                         style={{ backgroundImage: `url(${SiteVendasBackend})` }}
-                        className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg shadow-orange-200 group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Efeitos de foco */}
 
@@ -139,7 +139,7 @@ const Work = () => {
                     </div>
                     <div
                         style={{ backgroundImage: `url(${BuscaEco})` }}
-                        className='shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div'
+                        className='shadow-lg shadow-orange-200 group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Efeitos de foco */}
 
