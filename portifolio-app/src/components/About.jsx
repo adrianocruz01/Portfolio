@@ -3,8 +3,8 @@ import EuFoto from '../assets/Eufoto.jpeg';
 
 const About = () => {
     return (
-        <div name='sobre' className='w-full h-[1000px] bg-black text-gray-300'>
-            <div className='flex flex-col justify-center items-center w-full h-full text-justify'>
+        <div name='sobre' className='w-full sm:h-screen text-gray-300'>
+            <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
                         <p className='text-4xl font-bold inline border-b-4 border-[#00df9a]'>
@@ -14,14 +14,13 @@ const About = () => {
                     <div></div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-
-
-                    <img className='flex py-4' src={EuFoto} alt='/'></img>
-
-                    <div>
-                        <p className=' text-3xl font-bold py-4'>
-                            Fevereiro de 2000, nasceu em Minas Gerais uma grande história.
+                    <div className='sm:text-right text-3xl font-bold'>
+                        <p>
+                            21/02/2000 nasceu em Minas Gerais uma grande história.
                         </p>
+                        <img className='flex py-4' src={EuFoto} alt='/'></img>
+                    </div>
+                    <div>
                         <p>
                             Durante minha infância, passei por muita dificuldade trabalhando na roça com meu pai, em São João da Serra Negra - MG. Aos 11 e aos 12 eu já estava em dois empregos: na roça com meu pai e um faz tudo em um mercado local. E, dessa forma, segui por muitos anos.
 
